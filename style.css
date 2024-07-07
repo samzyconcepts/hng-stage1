@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,21 +16,47 @@ body {
 
 header {
     width: 100%;
-    color: #0c0c0c;
+    color: #050517;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
 }
 
-main{
-    background: #cf5c36;
+header h1{
+    font-size: 5rem;
+}
+main {
+    background: #050517;
+    color: #fff;
     padding: 2rem;
+    margin-top: 2rem;
     border-radius: 8px;
-    
 }
 
-main section:not(:last-child){
+main section:not(:last-child) {
     margin-bottom: 1.5rem;
 }
 
+#time p {
+    line-height: 1.5;
+}
+
+ol,
+ul {
+    padding-inline-start: 1rem !important;
+    line-height: 1.5;
+}
+
+#links a {
+    display: block;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #cf5c36;
+}
+
+#links a:hover{
+    color: #cf8a73
+}
+
+footer{margin-top: 2rem;}
