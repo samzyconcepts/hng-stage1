@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Tech Goal</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 data-testid="slackDisplayName">Samzy</h1>
+                <p data-testid="slackEmail">oderinwalesamson1@gmail.com</p>
+            </div>
+            <img
+                data-testid="slackProfilePicture"
+                src="./image/profile-img.jpeg"
+                width="200"
+                height="200" />
+        </header>
+        <main>
+            <section id="time">
+                <h2>Live Time and Day</h2>
+                <p>Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+                <p>Day: <span data-testid="currentDay"></span></p>
+            </section>
+
+            <section id="goals">
+                <h1>>My Tech Goals for the Next 2 Years</h1>
+
+                <ol>
+                    <li>
+                        Master Frontend Development
+                        <ul>
+                            <li>
+                                Objective: Gain advanced proficiency in frontend technologies like
+                                React, Vue.js, and Angular.
+                            </li>
+                            <li>
+                                Build several projects, including a personal portfolio, an
+                                e-commerce site, and a blog platform.
+                            </li>
+                            <li>
+                                Contribute to open-source projects to gain real-world experience and
+                                collaborate with other developers.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Learn and Develop Mobile Applications
+                        <ul>
+                            <li>
+                                Objective: Learn mobile application development using frameworks
+                                like React Native or Flutter.
+                            </li>
+                            <li>
+                                Build and publish at least two mobile apps on the App Store or
+                                Google Play Store.
+                            </li>
+                            <li>
+                                Experiment with integrating backend services and APIs into mobile
+                                applications.
+                            </li>
+                            <li>
+                                Stay updated with the latest trends and advancements in mobile
+                                development by following blogs, attending webinars, and
+                                participating in developer communities.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section id="links" class="links">
+                <h2>Useful Links</h2>
+                <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+                <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+                <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+                    >Scrape Any Web</a
+                >
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Samzy. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
